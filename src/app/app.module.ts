@@ -7,16 +7,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 
 import {MaterialModule} from './material/material.module';
+import {MatCardModule} from '@angular/material/card';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatSliderModule } from '@angular/material/slider';
 import { PrincipalComponent } from './principal/principal.component';
+import { CardFancyExampleComponent } from './card-fancy-example/card-fancy-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    CardFancyExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { PrincipalComponent } from './principal/principal.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSliderModule,
-    MaterialModule
+    MaterialModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

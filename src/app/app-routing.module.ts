@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import {PrincipalComponent} from './principal/principal.component';
+import {CardFancyExampleComponent} from './card-fancy-example/card-fancy-example.component';
 
 const routes: Routes = [
 
-  {path: 'principal/quienes-somos', component: PrincipalComponent},
+  {path: 'quienes-somos', component: PrincipalComponent},
+  {path: 'informacion-producto', component: CardFancyExampleComponent},
 
   {path: '**', redirectTo: ''}
 ];
