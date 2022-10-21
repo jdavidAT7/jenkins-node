@@ -13,13 +13,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatSliderModule } from '@angular/material/slider';
 import { PrincipalComponent } from './principal/principal.component';
 import { CardFancyExampleComponent } from './card-fancy-example/card-fancy-example.component';
+import { PaginatresComponent } from './paginatres/paginatres.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     PrincipalComponent,
-    CardFancyExampleComponent
+    CardFancyExampleComponent,
+    PaginatresComponent
   ],
   imports: [
     BrowserModule,
